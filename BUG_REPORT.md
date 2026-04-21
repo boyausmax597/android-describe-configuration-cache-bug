@@ -15,6 +15,8 @@ Notably, the init script itself contains a comment acknowledging the design flaw
 
 Since configuration cache is Gradle's own recommended default and is increasingly enabled out of the box, this blocks `android describe` for a growing share of projects.
 
+I investigated with claude. The workaround works and the mentioned root cause seem to be relevant. You have everything in the steps below to reproduce yourself or checkout my own project.
+
 ## Steps to reproduce
 
 1. `android create empty-activity --name="CC Repro" --output=./repro`
@@ -27,7 +29,7 @@ https://github.com/Thomas-Boutin/android-describe-configuration-cache-bug
 
 Includes `repro-output.txt` (CLI failure), `repro-gradle-stacktrace.txt` (full Gradle CC violation), and `workaround-output.txt` (passing run).
 
-## Workaround
+## Workaround (once the init.gradle.kts is in the project)
 
 ```bash
 ./gradlew --no-configuration-cache \
