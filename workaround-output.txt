@@ -1,0 +1,16 @@
+Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
+
+> Task :app:dumpAndroidProjectModel
+Model Name: com.android.builder.model.v2.models.AndroidProject for module: :app written to /Users/thomasboutin/Documents/Projets/android-describe-cc-repro/app/build/AndroidProject.json
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+
+[Incubating] Problems report is available at: file:///Users/thomasboutin/Documents/Projets/android-describe-cc-repro/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.1.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 20s
+1 actionable task: 1 executed

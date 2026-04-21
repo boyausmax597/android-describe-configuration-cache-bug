@@ -1,0 +1,3 @@
+sdk: /Users/thomasboutin/Library/Android/sdk
+version: 0.7.15232955
+launcher_version: 0.7.15232955

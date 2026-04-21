@@ -1,0 +1,8 @@
+Target project directory: /Users/thomasboutin/Documents/Projets/android-describe-cc-repro/.
+Project directory exists: /Users/thomasboutin/Documents/Projets/android-describe-cc-repro/.
+gradlew found and is executable.
+Copying init.gradle.kts to /Users/thomasboutin/Documents/Projets/android-describe-cc-repro/./.gradle/init.gradle.kts
+Running gradlew dumpModels...
+Parsed tasks:
+Error: Critical tasks failed: [:app:dumpAndroidProjectModel]
+Error: gradlew failed with exit code 1
